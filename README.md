@@ -1,26 +1,32 @@
-# DSA Course
-## Topics 
-# Data structure
-- Array
-- ArrayList
-- String 
-- StringBuilder
-- HashMap
-- LinkedList
+## DSA Roadmap
+- Core Java
+- Math basics problems
+- Star Patterns
+- Time and Space complexity
+- Basic Array Problems
+- 2D Array Problems
+- ArrayList 
+- Basic String Problems
+- String Builder
+- HashMap and HashSet
+- #### Basic Sorting Algorithms
+  - Insertion Sort
+  - Bubble Sort
+  - Selectin Sort
+  - Cyclic Sort
+- #### Searching Algorithms
+  - Linear Search
+  - Binary Search (Using Itration)
+- Two pointer techniqe
+- Sliding Window
+- Recursion
+- Binary Search (Using Recursion)
+- Quick Sort
+- Merge Sort (Using Recursion and Itration )
+- Linked List
 - Stack
 - Queue
+- Greedy Algorithm
+- DP (Dynamic Programming)
 - Tree
 - Graph
-# Algorithm
-- Time & space complexity
-- Two pointer
-- Sliding window
-- Buble sort
-- Selection sort
-- Insertion sort
-- Custom sort
-- Binary search
-- Recursion
-- Backtracking
-- Greedy
-- Dynamic programming (DP)
