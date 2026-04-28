@@ -1,18 +1,16 @@
 ## DSA Roadmap
-- Core Java
+- #### Core Java
 - Math basics problems
 - Star Patterns
 - Time and Space complexity
 - Basic Array Problems
 - 2D Array Problems
-- ArrayList 
 - Basic String Problems
-- String Builder
 - HashMap and HashSet
 - #### Basic Sorting Algorithms
   - Insertion Sort
   - Bubble Sort
-  - Selectin Sort
+  - Selection Sort
   - Cyclic Sort
 - #### Searching Algorithms
   - Linear Search
