@@ -23,10 +23,12 @@
 - Binary Search (Using Recursion)
 - Quick Sort
 - Merge Sort (Using Recursion and Itration )
+- Backtracking 
 - Linked List
 - Stack
 - Queue
 - Greedy Algorithm
 - DP (Dynamic Programming)
-- Tree
-- Graph
+- Trees and BST (Binary Search Tree)
+- Graphs and Graph Algorithms
+- Heaps Priority Queues
