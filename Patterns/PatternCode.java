@@ -20,7 +20,10 @@ class PatternCode {
         // pattern17(4);
         // zoho(3);
         // pattern18(5);
-        pattern19(5);
+        // pattern19(5);
+        // pattern20(5);
+        // pattern21(5);
+        pattern22(4);
 
     }
 
@@ -51,7 +54,7 @@ class PatternCode {
         }
     }
 
-     static void pattern4(int row){
+    static void pattern4(int row){
         for(int i=1; i<=row; i++){
             for(int j=1; j<=i; j++){
                 System.out.print(i+ " ");
@@ -60,7 +63,7 @@ class PatternCode {
         }
     }
 
-     static void pattern5(int row){
+    static void pattern5(int row){
         for(int i=1; i<=row; i++){
             for(int j=row; j>=i; j--){
                 System.out.print("* ");
@@ -206,7 +209,7 @@ class PatternCode {
         }
     }
 
-     static void pattern16(int row){
+    static void pattern16(int row){
         for(int i=0; i<row; i++){
             for(char ch='A'; ch<='A'+i; ch++){
                 System.out.print(ch + " ");
@@ -243,7 +246,7 @@ class PatternCode {
         }
     }
     
-    static void zoho(int n) {
+static void zoho(int n) {
 
     int start = 1;
 
@@ -316,6 +319,81 @@ static void pattern19(int n){
             System.out.print("*");
         }
         space -= 2;
+        System.out.println();
+    }
+}
+
+static void pattern20(int n) {
+
+    // Upper part
+    int space = 2 * n - 2;
+
+    for (int i = 1; i <= n; i++) {
+
+        // left stars
+        for (int j = 1; j <= i; j++) {
+            System.out.print("*");
+        }
+
+        // spaces
+        for (int j = 1; j <= space; j++) {
+            System.out.print(" ");
+        }
+
+        // right stars
+        for (int j = 1; j <= i; j++) {
+            System.out.print("*");
+        }
+
+        space -= 2;
+        System.out.println();
+    }
+
+    // Lower part
+    space = 2;
+
+    for (int i = 1; i <= n; i++) {
+
+        // left stars
+        for (int j = 1; j <= n - i; j++) {
+            System.out.print("*");
+        }
+
+        // spaces
+        for (int j = 1; j <= space; j++) {
+            System.out.print(" ");
+        }
+
+        // right stars
+        for (int j = 1; j <= n - i; j++) {
+            System.out.print("*");
+        }
+
+        space += 2;
+        System.out.println();
+    }
+}
+
+static void pattern21(int n){
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=n; j++){
+            if(i==1 || i == n || j==1 || j==n ){
+                System.out.print("*");
+            }else{
+                System.out.print(" ");
+            }
+        }
+        System.out.println();
+    }
+}
+
+static void pattern22(int n){
+    for(int i = 0; i<(2*n -1); i++){
+        for(int j = 0; j<(2*n-1); j++){
+            int top = i, left = j, right = (2*n - 2) - j, down = (2*n - 2) - i;
+            int min = Math.min(Math.min(top, down), Math.min(left, right));
+            System.out.print(n - min+ " ");
+        }
         System.out.println();
     }
 }
