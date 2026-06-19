@@ -37,6 +37,7 @@ At => ith
 iteration, elements from position => 0
 to => i - 1
 will be sorted.
+<img width="838" height="495" alt="selection sort" src="https://github.com/user-attachments/assets/c7094702-d1d3-4604-9a38-3bd57128f973" />
 
 
 ### Analize the Time Complexity:
