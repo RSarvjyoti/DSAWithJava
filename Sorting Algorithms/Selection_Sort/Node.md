@@ -9,8 +9,9 @@ is searched for and then swapped with the element that is currently located at t
 
 Let’s take a look at the implementation.
 
-### pseudo code
-void selection_sort (int A[ ], int n) {
+### Pseudo code
+```text
+ void selection_sort (int A[ ], int n) {
         // temporary variable to store the position of minimum element
 
         int minimum;        
@@ -32,6 +33,8 @@ void selection_sort (int A[ ], int n) {
           swap ( A[ minimum ], A[ i ]) ; 
         }
    }
+
+```
 
 At => ith
 iteration, elements from position => 0
