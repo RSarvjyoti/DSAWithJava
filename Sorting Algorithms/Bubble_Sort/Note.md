@@ -22,6 +22,7 @@ void bubble_sort( int A[ ], int n ) {
 ```
 Lets try to understand the pseudo code with an example: A [ ] = { 7, 4, 5, 2}
 
+<img width="1160" height="548" alt="Bubble sort" src="https://github.com/user-attachments/assets/91236a0b-8c08-46fc-b58b-ba665c9f1a0a" />
 
 
 ### Complexity:
