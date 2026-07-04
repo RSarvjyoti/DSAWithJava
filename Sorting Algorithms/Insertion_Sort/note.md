@@ -36,6 +36,9 @@ void insertion_sort ( int A[ ] , int n)
 
 Taken array arr[] = {7,4,5,2};
 
+<img width="818" height="509" alt="InsertionSort" src="https://github.com/user-attachments/assets/ec65e560-8ef4-4549-ae27-e1baa39937bc" />
+
+
 ### Complexity Analysis
 - Time Complexity: O(n^2), where n is the number of elements in the array. This is because, in the worst case, we may have to compare each element with all the previous elements.
 
